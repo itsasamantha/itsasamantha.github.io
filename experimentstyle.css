@@ -1,11 +1,11 @@
- * {
-    box-sizing:border-box;
+ /* {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 body{
     background: #1fe5bd;
-    font-family: 'Roboto';
+    font-family: 'Times New Roman', Times, serif;
     transition: background 1s ease;
 }
 .content{
@@ -22,4 +22,4 @@ h2{
     display: table-cell;
     vertical-align: middle;
     clear: both;
-} 
+}  */
