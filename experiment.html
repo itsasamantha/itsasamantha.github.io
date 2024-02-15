@@ -4,50 +4,37 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="experimentstyle.css">
-
-     <title>experimensts</title>
+     <link rel="stylesheet" href="experimentstyle.scss">
+     <title>experiments</title>
  </head>
  <body>
-    <header>
-        <h1>metus dictum</h1>
-      </header>
-      <section>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id diam vel quam elementum pulvinar etiam non quam. Quam elementum pulvinar etiam non quam. Quam elementum pulvinar etiam non quam. Sollicitudin nibh sit amet commodo nulla. Sed vulputate mi sit amet. Massa enim nec dui nunc mattis. A iaculis at erat pellentesque adipiscing commodo elit. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi. Eros donec ac odio tempor. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Sit amet tellus cras adipiscing enim. Pellentesque habitant morbi tristique senectus et netus. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Egestas sed sed risus pretium quam. At consectetur lorem donec massa sapien faucibus. Enim praesent elementum facilisis leo vel.</p>
-      </section>
-      
-      <article>
-      <h2>Massa Tincidunt</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id eu nisl nunc mi ipsum faucibus vitae.</p>
-      </article>
-      
-      <section>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id diam vel quam elementum pulvinar etiam non quam. Quam elementum pulvinar etiam non quam. Quam elementum pulvinar etiam non quam. Sollicitudin nibh sit amet commodo nulla. Sed vulputate mi sit amet. Massa enim nec dui nunc mattis. A iaculis at erat pellentesque adipiscing commodo elit. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi. Eros donec ac odio tempor. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Sit amet tellus cras adipiscing enim. Pellentesque habitant morbi tristique senectus et netus. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Egestas sed sed risus pretium quam. At consectetur lorem donec massa sapien faucibus. Enim praesent elementum facilisis leo vel.</p>
-      </section>
-      
-      <section>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id diam vel quam elementum pulvinar etiam non quam. Quam elementum pulvinar etiam non quam. Quam elementum pulvinar etiam non quam. Sollicitudin nibh sit amet commodo nulla. Sed vulputate mi sit amet. Massa enim nec dui nunc mattis. A iaculis at erat pellentesque adipiscing commodo elit. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi. Eros donec ac odio tempor. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Sit amet tellus cras adipiscing enim. Pellentesque habitant morbi tristique senectus et netus. Egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate. Egestas sed sed risus pretium quam. At consectetur lorem donec massa sapien faucibus. Enim praesent elementum facilisis leo vel.</p>
-      </section>
+    <div class="parallax_wrapper">
+        <div class="parallax_group intro_screen">
+           Testing 
+        </div>
 
+        <div class="parallax_group">
+            <div classs="parallax_layer base_layer">
+                Base Layer Page
+            </div>
+            <div classs="parallax_layer mid_layer">
+                Mid Layer Page
+            </div>
+        </div>
 
-     <script src="//code.jquery.com/jquery-3.1.1.slim.min.js"></script>
-     <script src="scrollColor.js"></script>     
-<script src="script.js"></script>
+        <div class="parallax_group">
+            <div classs="parallax_layer mid_layer">
+                Mid Layer Two Page
+            </div>
+            <div classs="parallax_layer top_layer">
+                Top Layer Page
+            </div>
+        </div>
 
- <!-- <script>$(function () {
-     'use strict';
-     var view = $(window).height();
-     $('.part')
-         .height(view)
-         .scrollie({
-             scrolloffset: -50,
-             scrollingInView: function (elem) {
-                 var bgColor = elem.data('background');
-                 $('body').css('background-color', bgColor);
-             }
-         });
- });</script>  -->
-
+        <div class="parallax_group outro_screen">
+            
+        </div>
+    </div>
 
  </body>
  </html>
