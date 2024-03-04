@@ -45,7 +45,7 @@ p{
     float:left;
 }
 
-input[type=text] {
+/* input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -55,19 +55,58 @@ input[type=text] {
     transition: 0.5s;
     outline: none;
   }
-  input[type=text]:focus {
+input[type=text]:focus {
     border: 3px solid #638889;
-  }
+} */
 
-  input[type=button], input[type=submit], input[type=reset] {
+input[type=button], input[type=submit], input[type=reset] {
     background-color: #9dbc98;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 16px 90px;
     text-decoration: none;
-    margin: 4px 2px;
+    margin: 4px 3px;
     cursor: pointer;
     border-radius: 25px;
     width: 100px;
     height: 30px;
-  }
+    text-align: center;
+    
+  } 
+
+
+.container{
+    margin-left: 130px;
+    width: 500px;
+    height: 230px;
+    text-align: center;
+    background-color: #638889;
+    border-radius:40px;
+    color:#fdf7e4;
+
+}
+
+.picturelink{
+    color:black;
+    font-size: 60px;
+}
+
+.linkd{
+    color:#0a66c2;
+    
+}
+    
+img{
+    width: 200px;
+}
+
+.parent{
+    display: flex; 
+    flex-direction: row; 
+}
+
+.second{
+    padding-left: 20px;
+    
+    
+}
