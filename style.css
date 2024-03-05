@@ -62,7 +62,7 @@ input[type=text]:focus {
 input[type=button], input[type=submit], input[type=reset] {
     background-color: #9dbc98;
     border: none;
-    color: white;
+    color: #ffffff;
     padding: 16px 90px;
     text-decoration: none;
     margin: 4px 3px;
@@ -76,14 +76,14 @@ input[type=button], input[type=submit], input[type=reset] {
 
 
 .container{
-    margin-left: 130px;
+    margin-left: 33%;
+    margin-right: 33%;
     width: 500px;
     height: 230px;
     text-align: center;
     background-color: #638889;
     border-radius:40px;
-    color:#fdf7e4;
-
+    color:#ffffff;
 }
 
 .picturelink{
@@ -109,4 +109,16 @@ img{
     padding-left: 20px;
     
     
+}
+ 
+
+@media (max-width: 500px){
+    p{
+        font-size: 20px;
+    }
+    .container{
+        margin-left: 50px;
+        width: 305px;
+        height: 225px;
+    }
 }
