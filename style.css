@@ -75,7 +75,7 @@ input[type=button], input[type=submit], input[type=reset] {
   } 
 
 
- .container{
+ .contain{
     width: 500px;
     height: 230px;
     text-align: center;
@@ -114,7 +114,7 @@ img{
     p{
         font-size: 20px;
     }
-    .container{
+    .contain{
         margin-left: 50px;
         width: 305px;
         height: 225px;
