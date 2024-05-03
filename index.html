@@ -12,83 +12,112 @@
     <title>Samantha</title>
 </head>
 <body>
+
     <nav class="navbar">
         <ul>
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="aboutme.html"> About me </a></li>
-            <li><a href="pastprojects.html"> Past Projects </a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about_me"> About me </a></li>
+            <li><a href="#past_projects"> Past Projects </a></li>
+            <li><a href="contact_me"> Contact Me </a></li>
             <li><a href="https://docs.google.com/document/d/1IimL-mW3zYKPSb9a8hD__cvwYXLPS-utT--rxvd5Alo/edit?usp=sharing">Resume</a></li>
         </ul>
     </nav>
 
-    <main>
-        <h1>Samantha Powell</h1>
-        
-        <p>This website dives into all of my past works, acomplishments, intrests and so much more! </p>
+    <div id="home">
+    <h1>Hi, Im:</h1>
+    <h1>Samantha Powell</h1> 
+        <div class="parent">
 
-        <h5>Here's a quick preview</h5>
-        
+            <div class="child">
+                <img src="images/Me.png" alt="Photo of Samantha">
+            </div>
 
-
-    </main>
-
-    <h1>get in contact with me!</h1>
-
-    <div id="biggercontainer">
-        <section class="contain">
-            <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post">
-                <div>
-                    <br>
-                    <label for="gname"> Given Name </label>
-                    <input type="text" id="gname" name="gname" placeholder="Enter your given name here." required>
-                </div>
-                <br>
-                <div>
-                    <label for="sname"> Surname </label>
-                    <input type="text" id="sname" name="sname" placeholder="Enter surname here." required>
-                </div>
-                <br>
-                <div>
-                    <label for="email"> Email </label>
-                    <input type="email" id="email" name="email" placeholder="YourEmail@gmail.com" required>
-                </div>
-                <br>
-                <div>
-                    <label for="talk"> Message </label>
-                    <input type="text" id="talk" name="talk" placeholder="Enter your message here." required>
-                </div>
-                <br>
-                <div>
-                    <input type="submit">
-                </div>
-                <input name="send-to" value="spowell@brooklynsteamcenter.org" hidden> 
-
-            </form>
-        </section>
-
-    </div>
-    
-
-
-
-<a class="picturelink git" href="https://github.com/itsasamantha"><i class="fa fa-github"></i></a>
-<a class="picturelink linkd" href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin-square"></i></a>
-
-    
-<br>
-
-<foooter>
-    <div class="container">
-        <div class=".footer-main">
-
+            <div class="second_child">
+                <p>Samantha is a junior at Medgar Evers College Prepatory School, and a Full Stack Development student at the Brooklyn Steam Center at the Navy Yard. Samantha is an aspiring developer who wishes to combine her intrest in art with her love for computer science.</p>
+            </div>
         </div>
     </div>
-</foooter>
+    <br><br><br><br>
+    <main>
+    <div id="about_me">
+        <h1>About Me</h1>
 
+        <h2>Here are some of Samantha's favorite past-times</h2>
+        <h4>Shows</h4>
+        <p>Samantha likes animated films and comedy shows</p>
+        <ul>
+            <li>ponyo</li>
+            <li>pochahontas</li>
+            <li>taskmaster</li>
+        </ul>
+        <h4>Books</h4>
+        <p>Samantha enjoys reading mostly fanasty books</p>
+        <ul>
+            <li>Children of Blood and Bones</li>
+            <li>Various manga</li>
+        </ul>
+        <h4>Crafts</h4>
+        <p>Samantha also enjoys working on creative products with her sewing and crochet</p>
+    </div>
+    <br><br>
+    <div id="past_projects">
+        <h1>Past Projects</h1>
+        <h2>Here are some of the things samantha has worked on previously</h2>
+        <h4>Patent Works</h4>
+        <p>Samantha worked in a group to create this website for a potential buisness.</p>
+        <a></a>
 
+        <h4>Text Adventure Game</h4>
+        <p>Samantha crated a text adventure game inspired by a pokemon adventure using python</p>
+        <a></a>
 
- 
+        <h4>MadLibs Game</h4>
+        <p>Samantha created a mad-libs game based off of te musical Black Friday</p>
+        <a></a>
 
+    </div><br><br>
+    <div id="contact_me">
+        <h1>Get in contact with me!</h1>
 
+        <div id="biggercontainer">
+            <section class="contain">
+                <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post">
+                    <div>
+                        <br>
+                        <label for="gname"> Given Name </label>
+                        <input type="text" id="gname" name="gname" placeholder="Enter your given name here." required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="sname"> Surname </label>
+                        <input type="text" id="sname" name="sname" placeholder="Enter surname here." required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email"> Email </label>
+                        <input type="email" id="email" name="email" placeholder="YourEmail@gmail.com" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="talk"> Message </label>
+                        <input type="text" id="talk" name="talk" placeholder="Enter your message here." required>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit">
+                    </div>
+                    <input name="send-to" value="spowell@brooklynsteamcenter.org" hidden> 
+
+                </form>
+            </section>
+            <a class="picturelink git" href="https://github.com/itsasamantha"><i class="fa fa-github"></i></a>
+            <a class="picturelink linkd" href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin-square"></i></a>
+
+        </div>
+
+    </div>
+    
+    </main>
+    
 </body>
 </html>
