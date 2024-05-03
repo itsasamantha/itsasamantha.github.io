@@ -3,6 +3,8 @@
 body{
     margin: 0px;
     background-color: #fdf7e4;
+    color:#638889;
+    font-family: "Play", sans-serif;
 }
 main{
     margin-left: 20px;
@@ -13,12 +15,9 @@ main{
 h1{
     text-align: center;
     font-family: "Play", sans-serif;
-    color:#638889
+    color:#638889;
 }
-p{
-    font-family: "Play", sans-serif;
-    color:#638889
-}
+
 .navbar{
     position: sticky;
 }
@@ -31,7 +30,7 @@ p{
 }
 
 .navbar a{
-    color: #638889;
+    color:#638889;
     text-decoration:none;
     padding: 15px;
     display:block;
