@@ -18,6 +18,9 @@ h1{
     color:#638889;
 }
 
+p{
+    font-size: 20px;
+}
 .navbar{
     position: sticky;
 }
