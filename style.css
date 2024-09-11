@@ -3,7 +3,7 @@
 body{
     margin: 0px;
     background-color: #fdf7e4;
-    color:#638889;
+    color:#dcede8;
     font-family: "Play", sans-serif;
 }
 main{
@@ -21,7 +21,7 @@ h1{
 p{
     font-size: 20px;
 }
-.navbar{
+nav{
     position: sticky;
 }
 .navbar ul{
